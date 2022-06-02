@@ -111,7 +111,6 @@ const InternalSelect = <OptionType extends BaseOptionType | DefaultOptionType = 
     feedbackIcon,
   } = useContext(FormItemInputContext);
   const mergedStatus = getMergedStatus(contextStatus, customStatus);
-  console.log(contextStatus);
 
   // ===================== Empty =====================
   let mergedNotFound: React.ReactNode;
