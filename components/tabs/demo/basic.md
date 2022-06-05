@@ -34,6 +34,9 @@ const App: React.FC = () => (
     <TabPane tab="Tab 3" key="3">
       Content of Tab Pane 3
     </TabPane>
+      <TabPane tab="Tab 4" key="4">
+      Content of Tab Pane 4
+    </TabPane>
   </Tabs>
 );
 
